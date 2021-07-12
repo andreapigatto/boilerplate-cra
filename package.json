@@ -80,7 +80,12 @@
       "react/react-in-jsx-scope": "off",
       "@typescript-eslint/explicit-function-return-type": "off",
       "react/jsx-props-no-spreading": "off",
-      "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": true
+        }
+      ],
       "react/jsx-filename-extension": [
         1,
         {
@@ -144,8 +149,10 @@
     ]
   },
   "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.2",
     "autoprefixer": "^9",
     "cypress": "^7.7.0",
+    "enzyme": "^3.11.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
